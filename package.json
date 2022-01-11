@@ -1,0 +1,51 @@
+{
+  "name": "javascript-react-chat-end-to-end-encryption-app",
+  "version": "3.0.5-1",
+  "dependencies": {
+    "@cometchat-pro/chat": "3.0.5",
+    "@emotion/core": "^10.0.35",
+    "@virgilsecurity/e3kit-browser": "^2.4.5",
+    "dateformat": "^4.0.0",
+    "emoji-mart": "^3.0.0",
+    "history": "^4.6.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-html-parser": "^2.0.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "twemoji": "^13.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "file-loader": "^6.2.0",
+    "node-sass": "4.14",
+    "react-app-rewired": "^2.1.11"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "."
+}
